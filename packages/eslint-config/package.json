@@ -2,6 +2,19 @@
     "name": "@citrus-linting/eslint-config",
     "version": "0.1.0",
     "description": "ESLint config used by CitRUS.",
+    "keywords": [
+        "config",
+        "eslint",
+        "javascript",
+        "typescript",
+        "svelte"
+    ],
+    "homepage": "https://github.com/CitRUSprod/citrus-linting#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CitRUSprod/citrus-linting.git",
+        "directory": "packages/eslint-config"
+    },
     "license": "MIT",
     "author": "CitRUS",
     "main": "index.js"

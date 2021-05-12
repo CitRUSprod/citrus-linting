@@ -8,7 +8,7 @@
         "git:commit": "git-cz",
         "prettier": "prettier --check",
         "prettier:fix": "pnpm prettier -- --write",
-        "prettier:all": "pnpm prettier -- \"./**/*.{md,json,js}\"",
+        "prettier:all": "pnpm prettier -- \"**/*.{md,json,js}\"",
         "prettier:fix:all": "pnpm prettier:all -- --write",
         "lint": "pnpm prettier:all",
         "lint:fix": "pnpm prettier:fix:all",

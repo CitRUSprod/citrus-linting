@@ -2,6 +2,19 @@
     "name": "@citrus-linting/prettier-config",
     "version": "0.1.0",
     "description": "Prettier config used by CitRUS.",
+    "keywords": [
+        "config",
+        "prettier",
+        "javascript",
+        "typescript",
+        "svelte"
+    ],
+    "homepage": "https://github.com/CitRUSprod/citrus-linting#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CitRUSprod/citrus-linting.git",
+        "directory": "packages/prettier-config"
+    },
     "license": "MIT",
     "author": "CitRUS",
     "main": "index.js"
