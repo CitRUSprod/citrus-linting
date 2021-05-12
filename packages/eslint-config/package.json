@@ -1,0 +1,8 @@
+{
+    "name": "@citrus-linting/eslint-config",
+    "version": "0.1.0",
+    "description": "ESLint config used by CitRUS.",
+    "license": "MIT",
+    "author": "CitRUS",
+    "main": "index.js"
+}

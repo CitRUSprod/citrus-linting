@@ -1,0 +1,8 @@
+{
+    "name": "@citrus-linting/prettier-config",
+    "version": "0.1.0",
+    "description": "Prettier config used by CitRUS.",
+    "license": "MIT",
+    "author": "CitRUS",
+    "main": "index.js"
+}
