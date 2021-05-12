@@ -14,7 +14,7 @@ npm add -D eslint @citrus-linting/eslint-config
 
 Add `extends` field to your ESLint config:
 
-```json
+```jsonc
 {
     "extends": ["@citrus-linting"]
     // your rules
@@ -31,7 +31,7 @@ npm add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin @ci
 
 Add `extends` field to your ESLint config:
 
-```json
+```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/typescript"]
     // your rules
@@ -48,7 +48,7 @@ npm add -D eslint eslint-plugin-svelte3 @citrus-linting/eslint-config
 
 Add `extends` field to your ESLint config:
 
-```json
+```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/svelte"]
     // your rules
@@ -65,7 +65,7 @@ npm add -D eslint eslint-plugin-svelte3 @typescript-eslint/parser @typescript-es
 
 Add `extends` field to your ESLint config:
 
-```json
+```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/svelte-typescript"]
     // your rules

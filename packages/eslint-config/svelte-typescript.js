@@ -2,11 +2,11 @@ module.exports = {
     overrides: [
         {
             files: ["*.svelte"],
-            extends: ["./rules/typescript.cjs"],
+            extends: ["./rules/typescript.js"],
             processor: "svelte3/svelte3",
             parser: "@typescript-eslint/parser",
             parserOptions: {
-                project: ["./tsconfig.json"],
+                project: "./tsconfig.json",
                 extraFileExtensions: [".svelte"]
             },
             plugins: ["svelte3", "@typescript-eslint"],

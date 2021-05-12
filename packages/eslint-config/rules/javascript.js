@@ -4,10 +4,7 @@ module.exports = {
             Best Practices
         */
         "accessor-pairs": [2],
-        "array-callback-return": [
-            2,
-            { allowImplicit: true, checkForEach: true }
-        ],
+        "array-callback-return": [2, { allowImplicit: true, checkForEach: true }],
         // "block-scoped-var": 2,
         "class-methods-use-this": [2],
         // complexity: [2],
@@ -94,10 +91,7 @@ module.exports = {
         "arrow-parens": [2, "as-needed"],
         "arrow-spacing": [2],
         "constructor-super": 2,
-        "generator-star-spacing": [
-            2,
-            { named: "after", anonymous: "neither", method: "before" }
-        ],
+        "generator-star-spacing": [2, { named: "after", anonymous: "neither", method: "before" }],
         "no-class-assign": 2,
         // "no-confusing-arrow": [2],
         "no-const-assign": 2,
@@ -168,10 +162,7 @@ module.exports = {
         "no-unreachable-loop": [2],
         "no-unsafe-finally": 2,
         "no-unsafe-negation": [2, { enforceForOrderingRelations: true }],
-        "no-unsafe-optional-chaining": [
-            2,
-            { disallowArithmeticOperators: true }
-        ],
+        "no-unsafe-optional-chaining": [2, { disallowArithmeticOperators: true }],
         "no-useless-backreference": 2,
         "require-atomic-updates": 2,
         "use-isnan": [2, { enforceForIndexOf: true }],
@@ -215,11 +206,7 @@ module.exports = {
         // "line-comment-position": [2],
         "linebreak-style": [2],
         // "lines-around-comment": [2],
-        "lines-between-class-members": [
-            2,
-            "always",
-            { exceptAfterSingleLine: true }
-        ],
+        "lines-between-class-members": [2, "always", { exceptAfterSingleLine: true }],
         // "max-depth": [2],
         "max-len": [2],
         // "max-lines": [2],
@@ -293,10 +280,7 @@ module.exports = {
         "no-delete-var": 2,
         // "no-label-var": 2,
         // "no-restricted-globals": [2],
-        "no-shadow": [
-            2,
-            { builtinGlobals: true, hoist: "all", allow: ["name"] }
-        ],
+        "no-shadow": [2, { builtinGlobals: true, hoist: "all", allow: ["name"] }],
         "no-shadow-restricted-names": 2,
         "no-undef": [2, { typeof: true }],
         "no-undef-init": 2,

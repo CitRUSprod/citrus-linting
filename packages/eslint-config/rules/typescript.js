@@ -16,10 +16,7 @@ module.exports = {
         "@typescript-eslint/method-signature-style": [2, "method"],
         "@typescript-eslint/no-base-to-string": [2],
         "@typescript-eslint/no-confusing-void-expression": [2],
-        "@typescript-eslint/no-duplicate-imports": [
-            2,
-            { includeExports: true }
-        ],
+        "@typescript-eslint/no-duplicate-imports": [2, { includeExports: true }],
         // "@typescript-eslint/no-dynamic-delete": 2,
         // "no-empty-function": 0,
         // "@typescript-eslint/no-empty-function": [2],
@@ -48,10 +45,7 @@ module.exports = {
         // "@typescript-eslint/no-this-alias": [2],
         "no-throw-literal": 0,
         "@typescript-eslint/no-throw-literal": 2,
-        "@typescript-eslint/no-unnecessary-condition": [
-            2,
-            { allowConstantLoopConditions: true }
-        ],
+        "@typescript-eslint/no-unnecessary-condition": [2, { allowConstantLoopConditions: true }],
         "@typescript-eslint/no-unnecessary-qualifier": 2,
         "@typescript-eslint/no-unnecessary-type-arguments": 2,
         "@typescript-eslint/no-unnecessary-type-assertion": [2],
@@ -79,10 +73,7 @@ module.exports = {
         // "@typescript-eslint/require-array-sort-compare": [2],
         "require-await": 0,
         "@typescript-eslint/require-await": 2,
-        "@typescript-eslint/restrict-plus-operands": [
-            2,
-            { checkCompoundAssignments: true }
-        ],
+        "@typescript-eslint/restrict-plus-operands": [2, { checkCompoundAssignments: true }],
         "@typescript-eslint/restrict-template-expressions": [
             2,
             {
@@ -95,10 +86,7 @@ module.exports = {
         "@typescript-eslint/return-await": [2, "never"],
         "@typescript-eslint/strict-boolean-expressions": [2],
         // "@typescript-eslint/switch-exhaustiveness-check": 2,
-        "@typescript-eslint/triple-slash-reference": [
-            2,
-            { types: "prefer-import" }
-        ],
+        "@typescript-eslint/triple-slash-reference": [2, { types: "prefer-import" }],
         "@typescript-eslint/unbound-method": [2, { ignoreStatic: true }],
 
         /*
@@ -173,11 +161,7 @@ module.exports = {
         "@typescript-eslint/object-curly-spacing": [2, "always"],
         "@typescript-eslint/prefer-for-of": 2,
         quotes: 0,
-        "@typescript-eslint/quotes": [
-            2,
-            "double",
-            { allowTemplateLiterals: true }
-        ],
+        "@typescript-eslint/quotes": [2, "double", { allowTemplateLiterals: true }],
         semi: 0,
         "@typescript-eslint/semi": [2, "never"],
         // "@typescript-eslint/sort-type-union-intersection-members": [2],

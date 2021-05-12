@@ -1,6 +1,6 @@
 module.exports = {
+    extends: ["./rules/javascript.js"],
     root: true,
-    extends: ["./rules/javascript.cjs"],
     parserOptions: {
         sourceType: "module",
         ecmaVersion: 2020
