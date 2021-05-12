@@ -17,5 +17,8 @@
     },
     "license": "MIT",
     "author": "CitRUS",
-    "main": "index.js"
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    }
 }
