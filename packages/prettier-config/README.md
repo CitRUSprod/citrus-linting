@@ -4,7 +4,7 @@ Prettier config used by [CitRUS](https://github.com/CitRUSprod).
 
 ## Usage
 
-### Built-in
+### JavaScript
 
 Install dependencies:
 
@@ -17,7 +17,7 @@ Add `extends` field to your Prettier config:
 ```javascript
 module.exports = {
     ...require("@citrus-linting/prettier-config")
-    // your rules
+    // your options
 }
 ```
 
@@ -35,6 +35,6 @@ Add `extends` field to your Prettier config:
 module.exports = {
     ...require("@citrus-linting/prettier-config"),
     ...require("@citrus-linting/prettier-config/svelte")
-    // your rules
+    // your options
 }
 ```
