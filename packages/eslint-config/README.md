@@ -4,7 +4,7 @@ ESLint config used by [CitRUS](https://github.com/CitRUSprod).
 
 ## Usage
 
-### Built-in
+### JavaScript
 
 Install dependencies:
 
@@ -17,7 +17,7 @@ Add `extends` field to your ESLint config:
 ```jsonc
 {
     "extends": ["@citrus-linting"]
-    // your rules
+    // your options
 }
 ```
 
@@ -34,7 +34,7 @@ Add `extends` field to your ESLint config:
 ```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/typescript"]
-    // your rules
+    // your options
 }
 ```
 
@@ -51,7 +51,7 @@ Add `extends` field to your ESLint config:
 ```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/svelte"]
-    // your rules
+    // your options
 }
 ```
 
@@ -68,6 +68,6 @@ Add `extends` field to your ESLint config:
 ```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/svelte-typescript"]
-    // your rules
+    // your options
 }
 ```
