@@ -1,0 +1,23 @@
+{
+    "name": "@citrus-linting/stylelint-config",
+    "version": "0.1.0",
+    "description": "Stylelint config used by CitRUS.",
+    "keywords": [
+        "config",
+        "stylelint",
+        "css",
+        "scss"
+    ],
+    "homepage": "https://github.com/CitRUSprod/citrus-linting#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CitRUSprod/citrus-linting.git",
+        "directory": "packages/stylelint-config"
+    },
+    "license": "MIT",
+    "author": "CitRUS",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    }
+}
