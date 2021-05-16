@@ -280,7 +280,7 @@ module.exports = {
         "no-delete-var": 2,
         // "no-label-var": 2,
         // "no-restricted-globals": [2],
-        "no-shadow": [2, { builtinGlobals: true, hoist: "never", allow: ["name"] }],
+        "no-shadow": [2, { builtinGlobals: true, hoist: "never", allow: ["name", "status"] }],
         "no-shadow-restricted-names": 2,
         "no-undef": [2, { typeof: true }],
         "no-undef-init": 2,

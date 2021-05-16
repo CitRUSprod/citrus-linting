@@ -201,7 +201,7 @@ module.exports = {
         "no-shadow": 0,
         "@typescript-eslint/no-shadow": [
             2,
-            { builtinGlobals: true, hoist: "never", allow: ["name"] }
+            { builtinGlobals: true, hoist: "never", allow: ["name", "status"] }
         ],
         "no-unused-vars": 0,
         "@typescript-eslint/no-unused-vars": [2, { ignoreRestSiblings: true }],
