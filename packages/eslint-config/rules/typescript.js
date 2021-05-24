@@ -84,7 +84,7 @@ module.exports = {
         ],
         "no-return-await": 0,
         "@typescript-eslint/return-await": [2, "never"],
-        "@typescript-eslint/strict-boolean-expressions": [2],
+        // "@typescript-eslint/strict-boolean-expressions": [2],
         // "@typescript-eslint/switch-exhaustiveness-check": 2,
         "@typescript-eslint/triple-slash-reference": [2, { types: "prefer-import" }],
         "@typescript-eslint/unbound-method": [2, { ignoreStatic: true }],

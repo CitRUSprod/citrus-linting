@@ -145,7 +145,7 @@ module.exports = {
         // "no-extra-semi": 2,
         "no-func-assign": 2,
         "no-import-assign": 2,
-        "no-inner-declarations": [2],
+        // "no-inner-declarations": [2],
         "no-invalid-regexp": [2],
         "no-irregular-whitespace": [2],
         "no-loss-of-precision": 2,
