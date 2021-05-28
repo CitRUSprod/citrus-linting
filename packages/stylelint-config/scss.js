@@ -56,7 +56,7 @@ module.exports = {
         "scss/operator-no-newline-after": true,
         // "scss/operator-no-newline-before": true,
         "scss/operator-no-unspaced": true,
-        "scss/partial-no-import": true,
+        // "scss/partial-no-import": true,
         // "scss/selector-nest-combinators": "always",
         "scss/selector-no-redundant-nesting-selector": true,
         "scss/selector-no-union-class-name": true,
