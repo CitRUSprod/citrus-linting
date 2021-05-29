@@ -8,7 +8,8 @@ module.exports = {
                 "svelte3/ignore-styles": () => true
             },
             rules: {
-                "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }]
+                "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }],
+                "no-use-before-define": 0
             }
         }
     ]

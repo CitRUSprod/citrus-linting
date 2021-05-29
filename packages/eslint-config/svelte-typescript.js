@@ -15,7 +15,8 @@ module.exports = {
                 "svelte3/typescript": () => require("typescript")
             },
             rules: {
-                "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }]
+                "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }],
+                "@typescript-eslint/no-use-before-define": 0
             }
         }
     ]
