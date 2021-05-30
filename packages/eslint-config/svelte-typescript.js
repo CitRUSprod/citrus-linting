@@ -16,7 +16,9 @@ module.exports = {
             },
             rules: {
                 "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }],
-                "@typescript-eslint/no-use-before-define": 0
+                "no-undef-init": 0,
+                "@typescript-eslint/no-use-before-define": 0,
+                "@typescript-eslint/no-unnecessary-condition": 0
             }
         }
     ]

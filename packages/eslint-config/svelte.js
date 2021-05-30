@@ -9,6 +9,7 @@ module.exports = {
             },
             rules: {
                 "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }],
+                "no-undef-init": 0,
                 "no-use-before-define": 0
             }
         }
