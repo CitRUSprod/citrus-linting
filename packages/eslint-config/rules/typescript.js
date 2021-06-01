@@ -24,7 +24,7 @@ module.exports = {
         "@typescript-eslint/no-empty-interface": [2],
         // "@typescript-eslint/no-explicit-any": [2],
         "@typescript-eslint/no-extraneous-class": [2],
-        "@typescript-eslint/no-floating-promises": [2],
+        // "@typescript-eslint/no-floating-promises": [2],
         "@typescript-eslint/no-for-in-array": 2,
         "@typescript-eslint/no-implicit-any-catch": [2],
         "no-implied-eval": 0,
@@ -72,8 +72,8 @@ module.exports = {
         // "@typescript-eslint/prefer-ts-expect-error": 2,
         // "@typescript-eslint/promise-function-async": [2],
         // "@typescript-eslint/require-array-sort-compare": [2],
-        "require-await": 0,
-        "@typescript-eslint/require-await": 2,
+        // "require-await": 0,
+        // "@typescript-eslint/require-await": 2,
         "@typescript-eslint/restrict-plus-operands": [2, { checkCompoundAssignments: true }],
         "@typescript-eslint/restrict-template-expressions": [
             2,
@@ -103,7 +103,7 @@ module.exports = {
         "@typescript-eslint/no-loss-of-precision": 2,
         "@typescript-eslint/no-non-null-asserted-optional-chain": 2,
         // "@typescript-eslint/no-unsafe-argument": 2,
-        "@typescript-eslint/no-unsafe-assignment": 2,
+        // "@typescript-eslint/no-unsafe-assignment": 2,
         "@typescript-eslint/no-unsafe-call": 2,
         "@typescript-eslint/no-unsafe-member-access": 2,
         "@typescript-eslint/no-unsafe-return": 2,
@@ -197,12 +197,20 @@ module.exports = {
             {
                 selector: "typeLike",
                 format: ["PascalCase"]
+            },
+            {
+                selector: "enumMember",
+                format: ["PascalCase"]
             }
         ],
         "no-shadow": 0,
         "@typescript-eslint/no-shadow": [
             2,
-            { builtinGlobals: true, hoist: "never", allow: ["name", "status"] }
+            {
+                builtinGlobals: true,
+                hoist: "never",
+                allow: ["name", "status", "length", "open", "close"]
+            }
         ],
         "no-unused-vars": 0,
         "@typescript-eslint/no-unused-vars": [2, { ignoreRestSiblings: true }],

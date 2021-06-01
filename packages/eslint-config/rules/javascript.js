@@ -78,7 +78,7 @@ module.exports = {
         "prefer-promise-reject-errors": [2],
         "prefer-regex-literals": [2, { disallowRedundantWrapping: true }],
         radix: [2, "as-needed"],
-        "require-await": 2,
+        // "require-await": 2,
         // "require-unicode-regexp": 2,
         // "vars-on-top": 2,
         "wrap-iife": [2, "inside", { functionPrototypeMethods: true }],
@@ -280,7 +280,14 @@ module.exports = {
         "no-delete-var": 2,
         // "no-label-var": 2,
         // "no-restricted-globals": [2],
-        "no-shadow": [2, { builtinGlobals: true, hoist: "never", allow: ["name", "status"] }],
+        "no-shadow": [
+            2,
+            {
+                builtinGlobals: true,
+                hoist: "never",
+                allow: ["name", "status", "length", "open", "close"]
+            }
+        ],
         "no-shadow-restricted-names": 2,
         "no-undef": [2, { typeof: true }],
         "no-undef-init": 2,
