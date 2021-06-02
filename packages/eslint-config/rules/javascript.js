@@ -237,7 +237,7 @@ module.exports = {
         "no-tabs": [2],
         // "no-ternary": 2,
         "no-trailing-spaces": [2],
-        "no-underscore-dangle": [2, { allowFunctionParams: false }],
+        "no-underscore-dangle": [2, { allowAfterThis: true, allowFunctionParams: false }],
         "no-unneeded-ternary": [2],
         "no-whitespace-before-property": 2,
         // "nonblock-statement-body-position": [2],

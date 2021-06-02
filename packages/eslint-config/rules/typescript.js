@@ -149,7 +149,20 @@ module.exports = {
                 }
             }
         ],
-        "@typescript-eslint/member-ordering": [2],
+        "@typescript-eslint/member-ordering": [
+            2,
+            {
+                default: [
+                    "private-field",
+                    "protected-field",
+                    "public-field",
+                    "constructor",
+                    "private-method",
+                    "protected-method",
+                    "public-method"
+                ]
+            }
+        ],
         "no-array-constructor": 0,
         "@typescript-eslint/no-array-constructor": 2,
         "@typescript-eslint/no-confusing-non-null-assertion": 2,
@@ -182,6 +195,7 @@ module.exports = {
         // "init-declarations": 0,
         // "@typescript-eslint/init-declarations": [2],
         camelcase: 0,
+        "no-underscore-dangle": 0,
         "@typescript-eslint/naming-convention": [
             2,
             {
@@ -190,7 +204,13 @@ module.exports = {
             },
             {
                 selector: "memberLike",
-                modifiers: ["private", "protected"],
+                modifiers: ["private"],
+                format: ["camelCase"],
+                leadingUnderscore: "require"
+            },
+            {
+                selector: "memberLike",
+                modifiers: ["protected"],
                 format: ["camelCase"],
                 leadingUnderscore: "require"
             },
@@ -215,7 +235,7 @@ module.exports = {
         "no-unused-vars": 0,
         "@typescript-eslint/no-unused-vars": [2, { ignoreRestSiblings: true }],
         "no-use-before-define": 0,
-        "@typescript-eslint/no-use-before-define": [2],
-        "@typescript-eslint/unified-signatures": 2
+        "@typescript-eslint/no-use-before-define": [2]
+        // "@typescript-eslint/unified-signatures": 2
     }
 }
