@@ -26,7 +26,7 @@ module.exports = {
         "@typescript-eslint/no-extraneous-class": [2],
         // "@typescript-eslint/no-floating-promises": [2],
         "@typescript-eslint/no-for-in-array": 2,
-        "@typescript-eslint/no-implicit-any-catch": [2],
+        "@typescript-eslint/no-implicit-any-catch": [2, { allowExplicitAny: true }],
         "no-implied-eval": 0,
         "@typescript-eslint/no-implied-eval": 2,
         "@typescript-eslint/no-inferrable-types": [2],
@@ -105,7 +105,7 @@ module.exports = {
         // "@typescript-eslint/no-unsafe-argument": 2,
         // "@typescript-eslint/no-unsafe-assignment": 2,
         "@typescript-eslint/no-unsafe-call": 2,
-        "@typescript-eslint/no-unsafe-member-access": 2,
+        // "@typescript-eslint/no-unsafe-member-access": 2,
         "@typescript-eslint/no-unsafe-return": 2,
         // "@typescript-eslint/prefer-readonly-parameter-types": [2],
 
