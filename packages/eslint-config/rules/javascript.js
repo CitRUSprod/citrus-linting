@@ -164,7 +164,7 @@ module.exports = {
         "no-unsafe-negation": [2, { enforceForOrderingRelations: true }],
         "no-unsafe-optional-chaining": [2, { disallowArithmeticOperators: true }],
         "no-useless-backreference": 2,
-        "require-atomic-updates": 2,
+        // "require-atomic-updates": 2,
         "use-isnan": [2, { enforceForIndexOf: true }],
         "valid-typeof": [2, { requireStringLiterals: true }],
 

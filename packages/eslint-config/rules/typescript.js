@@ -15,7 +15,7 @@ module.exports = {
         "@typescript-eslint/dot-notation": [2],
         "@typescript-eslint/method-signature-style": [2, "method"],
         "@typescript-eslint/no-base-to-string": [2],
-        "@typescript-eslint/no-confusing-void-expression": [2],
+        "@typescript-eslint/no-confusing-void-expression": [2, { ignoreArrowShorthand: true }],
         "no-duplicate-imports": 0,
         "@typescript-eslint/no-duplicate-imports": [2, { includeExports: true }],
         // "@typescript-eslint/no-dynamic-delete": 2,
