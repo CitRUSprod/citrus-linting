@@ -104,7 +104,7 @@ module.exports = {
         "@typescript-eslint/no-non-null-asserted-optional-chain": 2,
         // "@typescript-eslint/no-unsafe-argument": 2,
         // "@typescript-eslint/no-unsafe-assignment": 2,
-        "@typescript-eslint/no-unsafe-call": 2,
+        // "@typescript-eslint/no-unsafe-call": 2,
         // "@typescript-eslint/no-unsafe-member-access": 2,
         "@typescript-eslint/no-unsafe-return": 2,
         // "@typescript-eslint/prefer-readonly-parameter-types": [2],
