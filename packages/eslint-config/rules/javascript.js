@@ -108,7 +108,13 @@ module.exports = {
         "object-shorthand": [2, "always", { avoidExplicitReturnArrows: true }],
         "prefer-arrow-callback": [2],
         "prefer-const": [2, { destructuring: "all" }],
-        "prefer-destructuring": [2, { object: true, array: false }],
+        "prefer-destructuring": [
+            2,
+            {
+                VariableDeclarator: { object: true, array: false },
+                AssignmentExpression: { object: false, array: false }
+            }
+        ],
         "prefer-numeric-literals": 2,
         "prefer-rest-params": 2,
         "prefer-spread": 2,
