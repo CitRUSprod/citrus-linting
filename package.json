@@ -1,5 +1,6 @@
 {
     "name": "citrus-linting",
+    "private": true,
     "description": "Linter configs used by CitRUS.",
     "license": "MIT",
     "author": "CitRUS",
