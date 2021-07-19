@@ -12,7 +12,7 @@
         "prettier:all": "pnpm prettier -- \"**/*.{md,json,js}\"",
         "prettier:fix:all": "pnpm prettier:all -- --write",
         "lint": "pnpm prettier:all",
-        "lint:fix": "pnpm prettier:fix:all",
+        "format": "pnpm prettier:fix:all",
         "ci": "pnpm lint"
     },
     "lint-staged": {
