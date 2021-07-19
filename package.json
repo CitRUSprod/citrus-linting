@@ -9,14 +9,14 @@
         "git:commit": "git-cz",
         "prettier": "prettier --check",
         "prettier:fix": "pnpm prettier -- --write",
-        "prettier:all": "pnpm prettier -- \"**/*.{md,json,js}\"",
+        "prettier:all": "pnpm prettier -- \"**/*.{md,json,yml,js}\"",
         "prettier:fix:all": "pnpm prettier:all -- --write",
         "lint": "pnpm prettier:all",
         "format": "pnpm prettier:fix:all",
         "ci": "pnpm lint"
     },
     "lint-staged": {
-        "*.{md,json,js}": "pnpm prettier:fix"
+        "*.{md,json,yml,js}": "pnpm prettier:fix"
     },
     "config": {
         "commitizen": {
