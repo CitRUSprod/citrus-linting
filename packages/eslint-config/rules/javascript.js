@@ -121,7 +121,7 @@ module.exports = {
         "prefer-template": 2,
         "require-yield": 2,
         "rest-spread-spacing": [2],
-        "sort-imports": [2, { memberSyntaxSortOrder: ["single", "multiple", "all", "none"] }],
+        // "sort-imports": [2],
         "symbol-description": 2,
         "template-curly-spacing": [2],
         "yield-star-spacing": [2],
