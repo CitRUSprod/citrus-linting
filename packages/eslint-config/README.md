@@ -71,3 +71,37 @@ Add `extends` field to your ESLint config:
     // your options
 }
 ```
+
+### JSON
+
+Install dependencies:
+
+```sh
+npm add -D eslint jsonc-eslint-parser eslint-plugin-jsonc @citrus-linting/eslint-config
+```
+
+Add `extends` field to your ESLint config:
+
+```jsonc
+{
+    "extends": ["@citrus-linting", "@citrus-linting/eslint-config/json"]
+    // your options
+}
+```
+
+### YAML
+
+Install dependencies:
+
+```sh
+npm add -D eslint yaml-eslint-parser eslint-plugin-yml @citrus-linting/eslint-config
+```
+
+Add `extends` field to your ESLint config:
+
+```jsonc
+{
+    "extends": ["@citrus-linting", "@citrus-linting/eslint-config/yaml"]
+    // your options
+}
+```
