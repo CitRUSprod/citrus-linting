@@ -6,7 +6,7 @@ module.exports = {
                 plugins: ["./node_modules/prettier-plugin-svelte"],
                 parser: "svelte",
                 svelteSortOrder: "options-scripts-markup-styles",
-                svelteStrictMode: true,
+                svelteStrictMode: false,
                 svelteBracketNewLine: true,
                 svelteAllowShorthand: true,
                 svelteIndentScriptAndStyle: true
