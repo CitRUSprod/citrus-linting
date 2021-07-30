@@ -2,24 +2,14 @@ module.exports = {
     overrides: [
         {
             files: ["*.svelte"],
-            extends: ["./rules/typescript.js"],
-            processor: "svelte3/svelte3",
-            parser: "@typescript-eslint/parser",
+            extends: ["./rules/svelte.js", "./rules/typescript.js"],
+            parser: "svelte-eslint-parser",
             parserOptions: {
+                parser: "@typescript-eslint/parser",
                 project: "./tsconfig.json",
                 extraFileExtensions: [".svelte"]
             },
-            plugins: ["svelte3", "@typescript-eslint"],
-            settings: {
-                "svelte3/ignore-styles": () => true,
-                "svelte3/typescript": () => require("typescript")
-            },
-            rules: {
-                "no-multiple-empty-lines": [2, { max: 1, maxBOF: 2 }],
-                "no-undef-init": 0,
-                "@typescript-eslint/no-use-before-define": 0,
-                "@typescript-eslint/no-unnecessary-condition": 0
-            }
+            plugins: ["@ota-meshi/svelte", "@typescript-eslint"]
         }
     ]
 }

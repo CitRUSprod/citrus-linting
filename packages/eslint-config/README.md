@@ -43,7 +43,7 @@ Add `extends` field to your ESLint config:
 Install dependencies:
 
 ```sh
-npm add -D eslint eslint-plugin-svelte3 @citrus-linting/eslint-config
+npm add -D eslint svelte-eslint-parser @ota-meshi/eslint-plugin-svelte @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config:
@@ -60,7 +60,7 @@ Add `extends` field to your ESLint config:
 Install dependencies:
 
 ```sh
-npm add -D eslint eslint-plugin-svelte3 @typescript-eslint/parser @typescript-eslint/eslint-plugin @citrus-linting/eslint-config
+npm add -D eslint svelte-eslint-parser @ota-meshi/eslint-plugin-svelte @typescript-eslint/parser @typescript-eslint/eslint-plugin @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config:
