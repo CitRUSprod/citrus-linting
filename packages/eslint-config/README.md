@@ -105,3 +105,20 @@ Add `extends` field to your ESLint config:
     // your options
 }
 ```
+
+### Jest
+
+Install dependencies:
+
+```sh
+npm add -D eslint eslint-plugin-jest @citrus-linting/eslint-config
+```
+
+Add `extends` field to your ESLint config:
+
+```jsonc
+{
+    "extends": ["@citrus-linting", "@citrus-linting/eslint-config/jest"]
+    // your options
+}
+```
