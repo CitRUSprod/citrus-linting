@@ -1,13 +1,17 @@
 {
     "name": "@citrus-linting/eslint-config",
-    "version": "0.16.1",
+    "version": "0.17.0",
     "description": "ESLint config used by CitRUS.",
     "keywords": [
         "config",
         "eslint",
         "javascript",
         "typescript",
-        "svelte"
+        "svelte",
+        "json",
+        "yaml",
+        "jest",
+        "jsdoc"
     ],
     "homepage": "https://github.com/CitRUSprod/citrus-linting#readme",
     "repository": {
