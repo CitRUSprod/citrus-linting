@@ -2,7 +2,7 @@ module.exports = {
     overrides: [
         {
             files: ["*.{js,ts}"],
-            extends: ["./rules/jsdoc.js"],
+            extends: ["./rules/jsdoc"],
             plugins: ["jsdoc"]
         }
     ]

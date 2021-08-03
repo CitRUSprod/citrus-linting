@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["./rules/javascript.js"],
+    extends: ["./rules/base"],
     root: true,
     parserOptions: {
         sourceType: "module",
