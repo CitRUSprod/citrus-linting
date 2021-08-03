@@ -122,3 +122,20 @@ Add `extends` field to your ESLint config:
     // your options
 }
 ```
+
+### JSDoc
+
+Install dependencies:
+
+```sh
+npm add -D eslint eslint-plugin-jsdoc @citrus-linting/eslint-config
+```
+
+Add `extends` field to your ESLint config:
+
+```jsonc
+{
+    "extends": ["@citrus-linting", "@citrus-linting/eslint-config/jsdoc"]
+    // your options
+}
+```
