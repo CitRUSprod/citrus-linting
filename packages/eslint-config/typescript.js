@@ -1,7 +1,7 @@
 module.exports = {
     overrides: [
         {
-            files: ["*.ts"],
+            files: ["*.ts?(x)"],
             extends: ["./rules/typescript"],
             parser: "@typescript-eslint/parser",
             parserOptions: {

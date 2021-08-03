@@ -1,7 +1,7 @@
 module.exports = {
     overrides: [
         {
-            files: ["*.yaml", "*.yml"],
+            files: ["*.y?(a)ml"],
             extends: ["./rules/yaml"],
             parser: "yaml-eslint-parser",
             plugins: ["yml"]
