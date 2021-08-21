@@ -1,4 +1,3 @@
-const { Separator } = require("inquirer")
 const { types, getScopes } = require("./base")
 
 function convertCommitTypes(typesObject = {}) {
@@ -24,13 +23,11 @@ function convertCommitTypes(typesObject = {}) {
     return commitTypes
 }
 
-module.exports = {
+/** @type {import("cz-customizable").Options} */
+const config = {
     types: convertCommitTypes(types),
     scopes: [
-        new Separator("─────── Packages ───────"),
         ...getScopes("packages"),
-        new Separator("──────── Other ─────────"),
-        "commits",
         {
             name: "(empty)",
             value: false
@@ -39,3 +36,5 @@ module.exports = {
     skipQuestions: ["body", "footer"],
     upperCaseSubject: true
 }
+
+module.exports = config
