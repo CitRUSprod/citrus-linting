@@ -47,6 +47,12 @@ module.exports = {
             System
         */
         "@ota-meshi/svelte/comment-directive": 2,
-        "@ota-meshi/svelte/system": 2
+        "@ota-meshi/svelte/system": 2,
+
+        /*
+            [other]
+        */
+        "no-undef-init": 0,
+        "@typescript-eslint/no-unnecessary-condition": 0
     }
 }

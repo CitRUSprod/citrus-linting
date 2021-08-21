@@ -100,6 +100,8 @@ npm add -D svelte-eslint-parser @ota-meshi/eslint-plugin-svelte @typescript-esli
 
 Add `extends` field to your ESLint config:
 
+> **NOTE:** Need tsconfig.eslint.json file
+
 ```jsonc
 {
     "extends": ["@citrus-linting", "@citrus-linting/eslint-config/svelte-typescript"]
