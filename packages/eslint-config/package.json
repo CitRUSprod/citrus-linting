@@ -1,6 +1,6 @@
 {
     "name": "@citrus-linting/eslint-config",
-    "version": "0.17.0",
+    "version": "0.17.1",
     "description": "ESLint config used by CitRUS.",
     "keywords": [
         "config",
