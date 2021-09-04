@@ -15,9 +15,6 @@
         "format": "pnpm prettier:fix:all",
         "ci": "pnpm lint"
     },
-    "lint-staged": {
-        "*.{md,json,yml,js}": "pnpm prettier:fix"
-    },
     "config": {
         "commitizen": {
             "path": "cz-customizable"
@@ -26,13 +23,15 @@
             "config": "./commits/commitizen.js"
         }
     },
+    "lint-staged": {
+        "*.{md,json,yml,js}": "pnpm prettier:fix"
+    },
     "devDependencies": {
         "@commitlint/cli": "13.1.0",
         "commitizen": "4.2.4",
         "cz-customizable": "6.3.0",
         "husky": "7.0.1",
         "lint-staged": "11.1.2",
-        "prettier": "2.3.2",
-        "prettier-plugin-packagejson": "2.2.11"
+        "prettier": "2.3.2"
     }
 }
