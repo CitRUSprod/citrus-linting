@@ -100,7 +100,7 @@ npm add -D svelte-eslint-parser @ota-meshi/eslint-plugin-svelte @typescript-esli
 
 Add `extends` field to your ESLint config:
 
-> **NOTE:** Need tsconfig.eslint.json file
+> **NOTE:** Need tsconfig.eslint.json file.
 
 ```jsonc
 {
