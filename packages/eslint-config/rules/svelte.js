@@ -52,6 +52,7 @@ module.exports = {
         /*
             [other]
         */
+        "no-self-assign": 0,
         "no-undef-init": 0,
         "@typescript-eslint/no-unnecessary-condition": 0
     }
