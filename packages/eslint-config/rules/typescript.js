@@ -61,7 +61,7 @@ module.exports = {
         // "@typescript-eslint/prefer-enum-initializers": 2,
         "@typescript-eslint/prefer-function-type": 2,
         "@typescript-eslint/prefer-includes": 2,
-        "@typescript-eslint/prefer-literal-enum-member": 2,
+        // "@typescript-eslint/prefer-literal-enum-member": [2],
         // "@typescript-eslint/prefer-namespace-keyword": 2,
         "@typescript-eslint/prefer-nullish-coalescing": [2],
         "@typescript-eslint/prefer-optional-chain": 2,
