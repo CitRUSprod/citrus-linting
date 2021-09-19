@@ -26,7 +26,7 @@ module.exports = {
         "comment-no-empty": true,
         "no-descending-specificity": true,
         "no-duplicate-at-import-rules": true,
-        "no-duplicate-selectors": [true, { disallowInList: true }],
+        "no-duplicate-selectors": true,
         "no-empty-source": true,
         "no-extra-semicolons": true,
         "no-invalid-double-slash-comments": true,
