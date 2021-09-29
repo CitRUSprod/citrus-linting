@@ -56,7 +56,7 @@ module.exports = {
         "no-proto": 2,
         // "no-redeclare": [2],
         // "no-restricted-properties": [2],
-        "no-return-assign": [2, "always"],
+        "no-return-assign": [2],
         "no-return-await": 2,
         "no-script-url": 2,
         "no-self-assign": [2],
