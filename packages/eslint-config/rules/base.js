@@ -314,7 +314,7 @@ module.exports = {
         "no-undef": [2, { typeof: true }],
         "no-undef-init": 2,
         // "no-undefined": 2,
-        "no-unused-vars": [2, { ignoreRestSiblings: true }],
+        "no-unused-vars": [2, { ignoreRestSiblings: true, caughtErrors: "all" }],
         "no-use-before-define": [2]
     }
 }
