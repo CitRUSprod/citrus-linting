@@ -7,7 +7,6 @@ module.exports = {
         "font-family-no-duplicate-names": true,
         "font-family-no-missing-generic-family-keyword": true,
         "named-grid-areas-no-invalid": true,
-        "function-calc-no-invalid": true,
         "function-calc-no-unspaced-operator": true,
         "function-linear-gradient-no-nonstandard-direction": true,
         "string-no-newline": true,
