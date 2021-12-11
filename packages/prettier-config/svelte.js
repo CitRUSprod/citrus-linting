@@ -7,7 +7,6 @@ module.exports = {
                 parser: "svelte",
                 svelteSortOrder: "options-scripts-markup-styles",
                 svelteStrictMode: false,
-                svelteBracketNewLine: true,
                 svelteAllowShorthand: true,
                 svelteIndentScriptAndStyle: true
             }
