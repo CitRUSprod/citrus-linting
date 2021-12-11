@@ -4,6 +4,7 @@ module.exports = {
             Possible Errors
         */
         "@ota-meshi/svelte/no-dupe-else-if-blocks": 2,
+        "@ota-meshi/svelte/no-dynamic-slot-name": 2,
         "@ota-meshi/svelte/no-not-function-handler": 2,
         "@ota-meshi/svelte/no-object-in-text-mustaches": 2,
         "@ota-meshi/svelte/valid-compile": [2],
@@ -34,6 +35,7 @@ module.exports = {
             }
         ],
         // "@ota-meshi/svelte/max-attributes-per-line": [2],
+        "@ota-meshi/svelte/mustache-spacing": [2],
         // "@ota-meshi/svelte/prefer-class-directive": 2,
         "@ota-meshi/svelte/shorthand-attribute": [2],
         "@ota-meshi/svelte/spaced-html-comment": [2],
@@ -47,6 +49,7 @@ module.exports = {
             System
         */
         "@ota-meshi/svelte/comment-directive": 2,
+        "@ota-meshi/svelte/dollar-prefixed-store-uses-vars": 2,
         "@ota-meshi/svelte/system": 2,
 
         /*
