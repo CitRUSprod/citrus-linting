@@ -5,7 +5,6 @@ module.exports = {
         */
         "jest/consistent-test-it": [2, { fn: "test" }],
         "jest/expect-expect": [2],
-        "jest/lowercase-name": [2, { ignore: ["describe"] }],
         // "jest/max-nested-describe": [2],
         // "jest/no-alias-methods": 2,
         "jest/no-commented-out-tests": 2,
@@ -33,8 +32,6 @@ module.exports = {
         "jest/prefer-hooks-on-top": 2,
         "jest/prefer-spy-on": 2,
         "jest/prefer-strict-equal": 2,
-        "jest/prefer-to-be-null": 2,
-        "jest/prefer-to-be-undefined": 2,
         "jest/prefer-to-contain": 2,
         "jest/prefer-to-have-length": 2,
         "jest/prefer-todo": 2,
@@ -44,11 +41,6 @@ module.exports = {
         "jest/unbound-method": [2, { ignoreStatic: true }],
         "jest/valid-expect-in-promise": 2,
         "jest/valid-expect": [2, { alwaysAwait: true }],
-        "jest/valid-title": [2],
-
-        /*
-            Possible Errors
-        */
-        "jest/valid-describe": 2
+        "jest/valid-title": [2]
     }
 }
