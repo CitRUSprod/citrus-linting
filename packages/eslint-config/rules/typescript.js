@@ -195,6 +195,7 @@ module.exports = {
         // "init-declarations": 0,
         // "@typescript-eslint/init-declarations": [2],
         camelcase: 0,
+        "new-cap": 0,
         "no-underscore-dangle": 0,
         "@typescript-eslint/naming-convention": [
             2,
