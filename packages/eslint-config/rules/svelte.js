@@ -4,9 +4,12 @@ module.exports = {
             Possible Errors
         */
         "@ota-meshi/svelte/no-dupe-else-if-blocks": 2,
+        "@ota-meshi/svelte/no-dupe-style-properties": 2,
         "@ota-meshi/svelte/no-dynamic-slot-name": 2,
         "@ota-meshi/svelte/no-not-function-handler": 2,
         "@ota-meshi/svelte/no-object-in-text-mustaches": 2,
+        "@ota-meshi/svelte/no-shorthand-style-property-overrides": 2,
+        "@ota-meshi/svelte/no-unknown-style-directive-property": [2],
         "@ota-meshi/svelte/valid-compile": [2],
 
         /*
@@ -20,7 +23,9 @@ module.exports = {
         */
         // "@ota-meshi/svelte/button-has-type": [2],
         "@ota-meshi/svelte/no-at-debug-tags": 2,
+        "@ota-meshi/svelte/no-unused-svelte-ignore": 2,
         "@ota-meshi/svelte/no-useless-mustaches": [2],
+        "@ota-meshi/svelte/require-optimized-style-attribute": 2,
 
         /*
             Stylistic Issues
@@ -36,8 +41,10 @@ module.exports = {
         ],
         // "@ota-meshi/svelte/max-attributes-per-line": [2],
         "@ota-meshi/svelte/mustache-spacing": [2],
-        // "@ota-meshi/svelte/prefer-class-directive": 2,
+        "@ota-meshi/svelte/prefer-class-directive": 2,
+        "@ota-meshi/svelte/prefer-style-directive": 2,
         "@ota-meshi/svelte/shorthand-attribute": [2],
+        "@ota-meshi/svelte/shorthand-directive": [2],
         "@ota-meshi/svelte/spaced-html-comment": [2],
 
         /*
@@ -49,14 +56,12 @@ module.exports = {
             System
         */
         "@ota-meshi/svelte/comment-directive": 2,
-        "@ota-meshi/svelte/dollar-prefixed-store-uses-vars": 2,
         "@ota-meshi/svelte/system": 2,
 
         /*
             [other]
         */
         "no-self-assign": 0,
-        "no-undef-init": 0,
-        "@typescript-eslint/no-unnecessary-condition": 0
+        "no-undef-init": 0
     }
 }
