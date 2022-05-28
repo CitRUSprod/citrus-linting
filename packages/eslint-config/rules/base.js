@@ -187,7 +187,7 @@ module.exports = {
         "array-element-newline": [2, "consistent"],
         "block-spacing": [2],
         "brace-style": [2],
-        camelcase: [2],
+        camelcase: [2, { properties: "never" }],
         // "capitalized-comments": [2],
         "comma-dangle": [2],
         "comma-spacing": [2],

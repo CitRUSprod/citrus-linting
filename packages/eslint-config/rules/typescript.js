@@ -58,7 +58,7 @@ module.exports = {
         "@typescript-eslint/no-var-requires": 2,
         "@typescript-eslint/non-nullable-type-assertion-style": 2,
         "@typescript-eslint/prefer-as-const": 2,
-        // "@typescript-eslint/prefer-enum-initializers": 2,
+        "@typescript-eslint/prefer-enum-initializers": 2,
         "@typescript-eslint/prefer-function-type": 2,
         "@typescript-eslint/prefer-includes": 2,
         // "@typescript-eslint/prefer-literal-enum-member": [2],
@@ -206,22 +206,22 @@ module.exports = {
             {
                 selector: "memberLike",
                 modifiers: ["private"],
-                format: ["camelCase"],
+                format: null,
                 leadingUnderscore: "require"
             },
             {
                 selector: "memberLike",
                 modifiers: ["protected"],
-                format: ["camelCase"],
+                format: null,
                 leadingUnderscore: "require"
             },
             {
-                selector: "typeLike",
+                selector: ["enumMember", "typeLike"],
                 format: ["PascalCase"]
             },
             {
-                selector: "enumMember",
-                format: ["PascalCase"]
+                selector: ["objectLiteralProperty", "typeProperty"],
+                format: null
             }
         ],
         "no-shadow": 0,
