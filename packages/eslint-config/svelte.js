@@ -4,7 +4,7 @@ module.exports = {
             files: ["*.svelte"],
             extends: ["./rules/svelte"],
             parser: "svelte-eslint-parser",
-            plugins: ["@ota-meshi/svelte"]
+            plugins: ["svelte"]
         }
     ]
 }

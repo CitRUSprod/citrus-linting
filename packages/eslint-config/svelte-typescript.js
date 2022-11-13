@@ -9,7 +9,7 @@ module.exports = {
                 project: "./tsconfig.eslint.json",
                 extraFileExtensions: [".svelte"]
             },
-            plugins: ["@typescript-eslint", "@ota-meshi/svelte"]
+            plugins: ["@typescript-eslint", "svelte"]
         }
     ]
 }
