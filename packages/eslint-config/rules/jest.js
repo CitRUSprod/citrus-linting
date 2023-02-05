@@ -20,7 +20,6 @@ module.exports = {
         // "jest/no-if": 2,
         "jest/no-interpolation-in-snapshots": 2,
         "jest/no-jasmine-globals": 2,
-        "jest/no-jest-import": 2,
         // "jest/no-large-snapshots": [2],
         "jest/no-mocks-import": 2,
         // "jest/no-restricted-matchers": [2],
