@@ -114,10 +114,7 @@ module.exports = {
         "selector-attribute-quotes": "always",
         "selector-type-case": "lower",
         "rule-empty-line-before": ["always", { ignore: ["after-comment", "first-nested"] }],
-        "at-rule-empty-line-before": [
-            "always",
-            { ignore: ["after-comment", "first-nested"], ignoreAtRules: ["apply"] }
-        ],
+        "at-rule-empty-line-before": ["always", { ignore: ["after-comment", "first-nested"] }],
         "comment-empty-line-before": "always",
         "comment-whitespace-inside": "always",
         "no-irregular-whitespace": true
