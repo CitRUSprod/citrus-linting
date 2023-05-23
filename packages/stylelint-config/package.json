@@ -1,6 +1,6 @@
 {
     "name": "@citrus-linting/stylelint-config",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Stylelint config used by CitRUS.",
     "keywords": [
         "config",
