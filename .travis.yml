@@ -3,7 +3,7 @@ dist: focal
 language: node_js
 
 node_js:
-    - 18.1.0
+    - 18.17.1
 
 cache:
     npm: false
@@ -11,11 +11,11 @@ cache:
         - ~/.pnpm-store
 
 before_install:
-    - npm i -g pnpm
+    - npm add -g pnpm@8
     - pnpm config set store-dir ~/.pnpm-store
 
 install:
     - pnpm i
 
 script:
-    - pnpm ci
+    - pnpm run ci
