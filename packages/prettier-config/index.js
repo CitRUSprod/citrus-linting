@@ -18,5 +18,6 @@ module.exports = {
     htmlWhitespaceSensitivity: "strict",
     vueIndentScriptAndStyle: true,
     endOfLine: "lf",
-    embeddedLanguageFormatting: "auto"
+    embeddedLanguageFormatting: "auto",
+    singleAttributePerLine: false
 }
