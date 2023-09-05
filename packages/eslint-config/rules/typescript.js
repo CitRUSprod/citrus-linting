@@ -74,13 +74,21 @@ module.exports = {
         // "@typescript-eslint/require-array-sort-compare": [2],
         // "require-await": 0,
         // "@typescript-eslint/require-await": 2,
-        "@typescript-eslint/restrict-plus-operands": [2, { checkCompoundAssignments: true }],
+        "@typescript-eslint/restrict-plus-operands": [
+            2,
+            {
+                allowAny: false,
+                allowBoolean: false,
+                allowNullish: false,
+                allowNumberAndString: false,
+                allowRegExp: false
+            }
+        ],
         "@typescript-eslint/restrict-template-expressions": [
             2,
             {
-                allowNumber: true,
-                allowBoolean: true,
-                allowNullable: true
+                allowAny: false,
+                allowRegExp: false
             }
         ],
         "no-return-await": 0,
