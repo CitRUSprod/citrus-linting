@@ -1,15 +1,27 @@
-module.exports = {
-    overrides: [
-        {
-            files: ["*.svelte"],
-            extends: ["./rules/typescript", "./rules/svelte"],
-            parser: "svelte-eslint-parser",
+const typescriptEslint = require("typescript-eslint")
+const svelteParser = require("svelte-eslint-parser")
+const svelte = require("eslint-plugin-svelte")
+
+const baseRules = require("./rules/base")
+const typescriptRules = require("./rules/typescript")
+const svelteRules = require("./rules/svelte")
+
+module.exports = [
+    {
+        files: ["**/*.svelte"],
+        plugins: { "@typescript-eslint": typescriptEslint.plugin, svelte },
+        languageOptions: {
+            parser: svelteParser,
             parserOptions: {
-                parser: "@typescript-eslint/parser",
+                parser: typescriptEslint.parser,
                 project: "./tsconfig.eslint.json",
                 extraFileExtensions: [".svelte"]
-            },
-            plugins: ["@typescript-eslint", "svelte"]
+            }
+        },
+        rules: {
+            ...baseRules,
+            ...typescriptRules,
+            ...svelteRules
         }
-    ]
-}
+    }
+]

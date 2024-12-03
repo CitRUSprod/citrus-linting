@@ -7,11 +7,7 @@
         "eslint",
         "javascript",
         "typescript",
-        "svelte",
-        "json",
-        "yaml",
-        "jest",
-        "jsdoc"
+        "svelte"
     ],
     "homepage": "https://github.com/CitRUSprod/citrus-linting#readme",
     "repository": {
@@ -21,7 +17,15 @@
     },
     "license": "MIT",
     "author": "CitRUS",
-    "main": "index.js",
+    "exports": {
+        ".": "./index.js",
+        "./typescript": "./typescript.js",
+        "./svelte": "./svelte.js",
+        "./svelte-typescript": "./svelte-typescript.js",
+        "./rules/base": "./rules/base.js",
+        "./rules/typescript": "./rules/typescript.js",
+        "./rules/svelte": "./rules/svelte.js"
+    },
     "publishConfig": {
         "access": "public"
     }

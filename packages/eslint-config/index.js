@@ -1,13 +1,23 @@
-module.exports = {
-    extends: ["./rules/base"],
-    root: true,
-    parserOptions: {
-        sourceType: "module",
-        ecmaVersion: 2020
+const globals = require("globals")
+
+const baseRules = require("./rules/base")
+
+module.exports = [
+    {
+        languageOptions: {
+            ecmaVersion: 2024,
+            sourceType: "module",
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+                ...globals.es6
+            }
+        }
     },
-    env: {
-        browser: true,
-        node: true,
-        es6: true
+    {
+        files: ["**/*.?([cm])js"],
+        rules: {
+            ...baseRules
+        }
     }
-}
+]
