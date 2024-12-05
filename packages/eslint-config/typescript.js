@@ -1,7 +1,7 @@
 import typescriptEslint from "typescript-eslint"
 
-import baseRules from "./rules/base"
-import typescriptRules from "./rules/typescript"
+import baseRules from "./rules/base.js"
+import typescriptRules from "./rules/typescript.js"
 
 export default [
     {

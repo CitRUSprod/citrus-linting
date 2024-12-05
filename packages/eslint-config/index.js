@@ -1,6 +1,6 @@
 import globals from "globals"
 
-import baseRules from "./rules/base"
+import baseRules from "./rules/base.js"
 
 export default [
     {
