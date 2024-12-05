@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "svelte/block-lang": 0,
     "svelte/button-has-type": 0,
     "svelte/comment-directive": 2,
@@ -10,7 +10,7 @@ module.exports = {
     "svelte/html-closing-bracket-spacing": 0,
     "svelte/html-quotes": 0,
     "svelte/html-self-closing": 0,
-    "svelte/indent": [2, { indent: 4 }],
+    "svelte/indent": 0,
     "svelte/infinite-reactive-loop": 2,
     "svelte/max-attributes-per-line": 0,
     "svelte/mustache-spacing": 0,
@@ -62,5 +62,6 @@ module.exports = {
     "svelte/system": 2,
     "svelte/valid-compile": 0,
     "svelte/valid-each-key": 2,
-    "svelte/valid-prop-names-in-kit-pages": 2
+    "svelte/valid-prop-names-in-kit-pages": 2,
+    "@typescript-eslint/unbound-method": 0
 }

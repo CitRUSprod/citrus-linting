@@ -1,8 +1,8 @@
-const globals = require("globals")
+import globals from "globals"
 
-const baseRules = require("./rules/base")
+import baseRules from "./rules/base"
 
-module.exports = [
+export default [
     {
         languageOptions: {
             ecmaVersion: 2024,

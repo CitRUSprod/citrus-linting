@@ -1,9 +1,9 @@
-const typescriptEslint = require("typescript-eslint")
+import typescriptEslint from "typescript-eslint"
 
-const baseRules = require("./rules/base")
-const typescriptRules = require("./rules/typescript")
+import baseRules from "./rules/base"
+import typescriptRules from "./rules/typescript"
 
-module.exports = [
+export default [
     {
         files: ["**/*.ts"],
         plugins: { "@typescript-eslint": typescriptEslint.plugin },

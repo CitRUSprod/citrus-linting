@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "@typescript-eslint/adjacent-overload-signatures": 2,
     "@typescript-eslint/array-type": [2, { default: "generic" }],
     "@typescript-eslint/await-thenable": 2,

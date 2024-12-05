@@ -1,12 +1,12 @@
-const svelteParser = require("svelte-eslint-parser")
-const svelte = require("eslint-plugin-svelte")
+import svelteParser from "svelte-eslint-parser"
+import svelte from "eslint-plugin-svelte"
 
-const baseRules = require("./rules/base")
-const svelteRules = require("./rules/svelte")
+import baseRules from "./rules/base"
+import svelteRules from "./rules/svelte"
 
-module.exports = [
+export default [
     {
-        files: ["**/*.svelte"],
+        files: ["**/*.svelte", "**/*.svelte.js"],
         plugins: { svelte },
         languageOptions: {
             parser: svelteParser

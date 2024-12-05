@@ -1,14 +1,14 @@
-const typescriptEslint = require("typescript-eslint")
-const svelteParser = require("svelte-eslint-parser")
-const svelte = require("eslint-plugin-svelte")
+import typescriptEslint from "typescript-eslint"
+import svelteParser from "svelte-eslint-parser"
+import svelte from "eslint-plugin-svelte"
 
-const baseRules = require("./rules/base")
-const typescriptRules = require("./rules/typescript")
-const svelteRules = require("./rules/svelte")
+import baseRules from "./rules/base"
+import typescriptRules from "./rules/typescript"
+import svelteRules from "./rules/svelte"
 
-module.exports = [
+export default [
     {
-        files: ["**/*.svelte"],
+        files: ["**/*.svelte", "**/*.svelte.ts"],
         plugins: { "@typescript-eslint": typescriptEslint.plugin, svelte },
         languageOptions: {
             parser: svelteParser,

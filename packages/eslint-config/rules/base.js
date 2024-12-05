@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "accessor-pairs": 2,
     "array-callback-return": [2, { allowImplicit: true, checkForEach: true }],
     "arrow-body-style": 2,
