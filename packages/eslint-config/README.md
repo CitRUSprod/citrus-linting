@@ -16,7 +16,7 @@ ESLint config used by [CitRUS](https://github.com/CitRUSprod).
 Install dependencies:
 
 ```sh
-npm add -D globals @citrus-linting/eslint-config
+npm add -D globals @stylistic/eslint-plugin eslint-plugin-import @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config (eslint.config.js):
@@ -51,7 +51,7 @@ export default [
 Install dependencies:
 
 ```sh
-npm add -D globals typescript-eslint @citrus-linting/eslint-config
+npm add -D globals typescript-eslint @stylistic/eslint-plugin eslint-plugin-import @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config (eslint.config.js):
@@ -90,7 +90,7 @@ export default [
 Install dependencies:
 
 ```sh
-npm add -D globals svelte-eslint-parser eslint-plugin-svelte @citrus-linting/eslint-config
+npm add -D globals svelte-eslint-parser eslint-plugin-svelte @stylistic/eslint-plugin eslint-plugin-import @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config (eslint.config.js):
@@ -129,7 +129,7 @@ export default [
 Install dependencies:
 
 ```sh
-npm add -D globals svelte-eslint-parser eslint-plugin-svelte typescript-eslint @citrus-linting/eslint-config
+npm add -D globals svelte-eslint-parser eslint-plugin-svelte typescript-eslint @stylistic/eslint-plugin eslint-plugin-import @citrus-linting/eslint-config
 ```
 
 Add `extends` field to your ESLint config (eslint.config.js):
