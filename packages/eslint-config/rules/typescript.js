@@ -61,7 +61,8 @@ export default {
         },
         { selector: ["enumMember", "typeLike"], format: ["PascalCase"] },
         { selector: "import", modifiers: ["default"], format: ["camelCase", "PascalCase"] },
-        { selector: ["objectLiteralProperty", "typeProperty"], format: null }
+        { selector: ["objectLiteralProperty", "typeProperty"], format: null },
+        { selector: "import", filter: { regex: "^_$", match: true }, format: null }
     ],
     "no-array-constructor": 0,
     "@typescript-eslint/no-array-constructor": 2,
@@ -86,7 +87,7 @@ export default {
     "@typescript-eslint/no-for-in-array": 2,
     "no-implied-eval": 0,
     "@typescript-eslint/no-implied-eval": 2,
-    "@typescript-eslint/no-import-type-side-effects": 2,
+    "@typescript-eslint/no-import-type-side-effects": 0,
     "@typescript-eslint/no-inferrable-types": 2,
     "no-invalid-this": 0,
     "@typescript-eslint/no-invalid-this": 2,
