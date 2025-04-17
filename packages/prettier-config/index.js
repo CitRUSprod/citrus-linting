@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     printWidth: 100,
     tabWidth: 4,
     useTabs: false,
@@ -19,5 +19,5 @@ module.exports = {
     vueIndentScriptAndStyle: true,
     endOfLine: "lf",
     embeddedLanguageFormatting: "auto",
-    singleAttributePerLine: false
-}
+    singleAttributePerLine: false,
+};

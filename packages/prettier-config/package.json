@@ -17,7 +17,11 @@
     },
     "license": "MIT",
     "author": "CitRUS",
-    "main": "index.js",
+    "type": "module",
+    "exports": {
+        ".": "./index.js",
+        "./svelte": "./svelte.js"
+    },
     "publishConfig": {
         "access": "public"
     }

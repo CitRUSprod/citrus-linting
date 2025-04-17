@@ -1,15 +1,17 @@
-module.exports = {
+import prettierPluginSvelte from "prettier-plugin-svelte";
+
+export default {
     overrides: [
         {
             files: "*.svelte",
             options: {
-                plugins: [require("prettier-plugin-svelte")],
+                plugins: [prettierPluginSvelte],
                 parser: "svelte",
                 svelteSortOrder: "options-scripts-markup-styles",
                 svelteStrictMode: false,
                 svelteAllowShorthand: true,
-                svelteIndentScriptAndStyle: true
-            }
-        }
-    ]
-}
+                svelteIndentScriptAndStyle: true,
+            },
+        },
+    ],
+};
