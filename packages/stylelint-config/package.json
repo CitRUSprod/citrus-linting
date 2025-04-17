@@ -16,7 +16,11 @@
     },
     "license": "MIT",
     "author": "CitRUS",
-    "main": "index.js",
+    "type": "module",
+    "exports": {
+        ".": "./index.js",
+        "./scss": "./scss.js"
+    },
     "publishConfig": {
         "access": "public"
     }
