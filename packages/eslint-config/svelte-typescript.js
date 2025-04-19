@@ -1,10 +1,10 @@
-import typescriptEslint from "typescript-eslint"
-import svelteParser from "svelte-eslint-parser"
-import svelte from "eslint-plugin-svelte"
+import typescriptEslint from "typescript-eslint";
+import svelteParser from "svelte-eslint-parser";
+import svelte from "eslint-plugin-svelte";
 
-import baseRules from "./rules/base.js"
-import typescriptRules from "./rules/typescript.js"
-import svelteRules from "./rules/svelte.js"
+import baseRules from "./rules/base.js";
+import typescriptRules from "./rules/typescript.js";
+import svelteRules from "./rules/svelte.js";
 
 export default [
     {
@@ -15,13 +15,19 @@ export default [
             parserOptions: {
                 parser: typescriptEslint.parser,
                 project: "./tsconfig.eslint.json",
-                extraFileExtensions: [".svelte"]
-            }
+                extraFileExtensions: [".svelte"],
+            },
+        },
+        settings: {
+            "import/parsers": {
+                "@typescript-eslint/parser": [".ts", ".tsx", ".cts", ".mts"],
+                espree: [".js", ".jsx", ".cjs", ".mjs"],
+            },
         },
         rules: {
             ...baseRules,
             ...typescriptRules,
-            ...svelteRules
-        }
-    }
-]
+            ...svelteRules,
+        },
+    },
+];
