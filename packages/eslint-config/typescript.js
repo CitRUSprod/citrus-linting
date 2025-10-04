@@ -1,7 +1,7 @@
-import typescriptEslint from "typescript-eslint"
+import typescriptEslint from "typescript-eslint";
 
-import baseRules from "./rules/base.js"
-import typescriptRules from "./rules/typescript.js"
+import baseRules from "./rules/base.js";
+import typescriptRules from "./rules/typescript.js";
 
 export default [
     {
@@ -10,12 +10,12 @@ export default [
         languageOptions: {
             parser: typescriptEslint.parser,
             parserOptions: {
-                project: ["./tsconfig.json", "./{apps,packages}/*/tsconfig.json"]
-            }
+                project: "./tsconfig.json",
+            },
         },
         rules: {
             ...baseRules,
-            ...typescriptRules
-        }
-    }
-]
+            ...typescriptRules,
+        },
+    },
+];
