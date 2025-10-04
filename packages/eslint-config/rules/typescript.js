@@ -60,9 +60,17 @@ export default {
             leadingUnderscore: "require"
         },
         { selector: ["enumMember", "typeLike"], format: ["PascalCase"] },
-        { selector: "import", modifiers: ["default"], format: ["camelCase", "PascalCase"] },
+        {
+            selector: "import",
+            modifiers: ["default"],
+            format: ["camelCase", "PascalCase"]
+        },
         { selector: ["objectLiteralProperty", "typeProperty"], format: null },
-        { selector: "import", filter: { regex: "^_$", match: true }, format: null }
+        {
+            selector: "import",
+            filter: { regex: "^_$", match: true },
+            format: null
+        }
     ],
     "no-array-constructor": 0,
     "@typescript-eslint/no-array-constructor": 2,

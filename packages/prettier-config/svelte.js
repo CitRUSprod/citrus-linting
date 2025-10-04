@@ -1,4 +1,4 @@
-import prettierPluginSvelte from "prettier-plugin-svelte";
+import prettierPluginSvelte from "prettier-plugin-svelte"
 
 export default {
     overrides: [
@@ -10,8 +10,8 @@ export default {
                 svelteSortOrder: "options-scripts-markup-styles",
                 svelteStrictMode: false,
                 svelteAllowShorthand: true,
-                svelteIndentScriptAndStyle: true,
-            },
-        },
-    ],
-};
+                svelteIndentScriptAndStyle: true
+            }
+        }
+    ]
+}
