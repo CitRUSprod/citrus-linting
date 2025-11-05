@@ -115,7 +115,7 @@ export default {
         "selector-type-case": "lower",
         "rule-empty-line-before": ["always", { ignore: ["after-comment", "first-nested"] }],
         "at-rule-empty-line-before": ["always", { ignore: ["after-comment", "first-nested"] }],
-        "comment-empty-line-before": "always",
+        "comment-empty-line-before": ["always", { except: ["first-nested"] }],
         "comment-whitespace-inside": "always",
         "no-irregular-whitespace": true
     }
