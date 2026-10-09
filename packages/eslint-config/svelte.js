@@ -12,7 +12,7 @@ export default [
             parser: svelteParser
         },
         settings: {
-            "import/parsers": {
+            "import-x/parsers": {
                 espree: [".js", ".jsx", ".cjs", ".mjs"]
             }
         },

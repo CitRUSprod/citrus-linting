@@ -1,6 +1,6 @@
 import globals from "globals"
 import stylistic from "@stylistic/eslint-plugin"
-import importPlugin from "eslint-plugin-import-x"
+import importX from "eslint-plugin-import-x"
 
 import baseRules from "./rules/base.js"
 
@@ -17,7 +17,7 @@ export default [
         },
         plugins: {
             "@stylistic": stylistic,
-            import: importPlugin
+            "import-x": importX
         }
     },
     {

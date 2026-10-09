@@ -19,7 +19,7 @@ export default [
             }
         },
         settings: {
-            "import/parsers": {
+            "import-x/parsers": {
                 "@typescript-eslint/parser": [".ts", ".tsx", ".cts", ".mts"],
                 espree: [".js", ".jsx", ".cjs", ".mjs"]
             }
