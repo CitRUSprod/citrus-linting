@@ -5,7 +5,7 @@ const config = {
     rules: {
         "body-empty": [2, "always"],
         "footer-empty": [2, "always"],
-        "header-max-length": [2, "always", 72],
+        "header-max-length": [2, "always", 100],
         "scope-case": [2, "always", "kebab-case"],
         "scope-enum": [2, "always", getScopes("packages")],
         "subject-case": [2, "always", "sentence-case"],
