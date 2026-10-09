@@ -409,7 +409,7 @@ export default {
     "import-x/no-relative-parent-imports": 0,
     "import-x/consistent-type-specifier-style": [2, "prefer-top-level"],
     "import-x/no-self-import": 2,
-    "import-x/no-cycle": 2,
+    "import-x/no-cycle": [2, { ignoreExternal: true }],
     "import-x/no-named-default": 2,
     "import-x/no-named-as-default": 0,
     "import-x/no-named-as-default-member": 2,
